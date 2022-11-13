@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         //int 32 bit
         int minIntVal = Integer.MIN_VALUE;
         int maxIntVal = Integer.MIN_VALUE;
@@ -58,6 +59,19 @@ public class Main {
         System.out.println("newInt " + newInt);
         System.out.println("newFloat " + newFloat);
         System.out.println("newDouble " + newDouble);
+
+        double inPounds = 200d;
+        double inKilo = inPounds * 0.45359237d;
+        System.out.println(inKilo);
+
+        // char 16 bit - 2 byte
+        char dChar1 = 'D';
+        char dChar2 = '\u0044';
+        char copyRightChar = '\u00A9';
+        System.out.println(dChar1);
+        System.out.println(dChar2);
+        System.out.println(copyRightChar);
+
 
 
     }
